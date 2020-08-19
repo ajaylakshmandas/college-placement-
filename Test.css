@@ -1,0 +1,217 @@
+ body {
+     background-color:white;
+     margin:0px;
+     font-family:verdana;
+     font-size:16px;
+    }
+#header {
+        background-color:white;
+        margin-left:335px;
+        height:90px;
+        border-radius:0px;
+        }
+      
+#navbar {
+        color:white;
+        margin-top:8px;
+        margin-left:46px;
+        margin-right:46px;
+        height:50px;
+        text-align:center;
+        line-height:50px;
+        border-radius:10px;
+        background-color:rgb(175,169,117);
+        animation-name:example;
+        animation-duration:7s;
+        }
+   @keyframes example {
+         0% { background-color:rgb(113,140,164);}
+         25%{ background-color:rgb(255.203,21);}
+         50%{background-color:rgb(222,61,130);}
+         100%{background-color:rgb(175,169,117);}
+              }
+          .row {
+             margin-top:20px;
+            }
+           
+          
+             #one {
+            border-radius:100px;
+            margin-left:45px;
+                   }
+             #second {
+            border-radius:100px;
+             margin-left:45px;
+                   }
+              .col-sm-4 {
+                margin-top:10px;
+                border:0.9px solid black;
+                 margin-bottom:0px;
+                       }
+                  #third {
+            border-radius:100px;
+             margin-left:45px;
+                   }
+        
+            #first {
+        background-color:white;
+      
+        margin-right:0px;
+        
+     
+        border-radius:0px;
+        }
+#first ul{
+           list-style:none;
+       
+           border-radius:0px;
+           padding:0px;
+           margin-top:10px;
+           margin-right:0px;
+           margin-bottom:0px;
+           margin-left:0px;
+           }
+#first ul li{
+             display:inline;
+             float:left;
+              margin-top:0px;
+              margin-right:20px;
+              margin-bottom:5px;
+              margin-left:20px;
+              padding-left:0px;
+             }
+      .button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 3px 3px 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 15px;
+  margin: 0px 0px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
+  }
+ .button:hover {
+  box-shadow: 0 0px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration:none;
+      }
+.inner {
+    text-align: center;
+    color: whitesmoke;
+    overflow: hidden;
+    padding: 0.6em;
+}
+
+.inner>h1 {
+    font-size: 3.5em;
+    animation: slide_up 1.4s ease;
+}
+
+.inner>p {
+    font-size: 1.2em;
+    animation: slide_up 2.1s ease;
+}
+
+.h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inner>button {
+    margin-top: 2em;
+    padding: 1em 2.5em;
+    font-size: 1em;
+    border-radius: 4em;
+    border: none;
+    background-color: yellowgreen;
+    color: black;
+    animation: slide_up 3.1s ease;
+}
+
+.text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+@keyframes slide_up {
+    0% {
+        transform: translatey(250px);
+    }
+    100% {
+        transform: translatey(0px);
+        }
+   #sideright {
+      background-color:white;
+      margin-top:0px;
+      margin-right:0px;
+      margin-bottom:0px;
+      margin-left:0px;
+      border-radius:0px;
+      padding:0px;
+      width:50px;
+      float:left;
+      clear:left;
+      }
+       #main {
+      background-color:white;
+      margin-top:0px;
+      margin-right:50px;
+      margin-bottom:0px;
+      margin-left:0px;
+      border-radius:0px;
+      padding:0px;
+     
+      }
+ .icons{
+      top:50%;
+      right:0;
+      transform:translateY(-50%);
+      position:absolute;
+      z-index:100;
+     }
+.icons ul{
+     padding:initial;
+     }
+.icons ul li{
+   height:40px;
+   width:40px;
+   list-style-type:none;
+   padding-left:12px;
+   padding-top:6px;
+   margin-top:5px;
+   color:white;
+}
+.facebook{
+    background:#007bb5;
+}
+.twitter{
+    background: #55acee;
+}
+.youtube{
+   background: #ff0000;
+}
+.linkedin{
+   background: #007bb5;
+}
+.instagram{
+    background: #e95950;
+}
+.icons ul li:hover{
+    padding-left: 30px;
+    width:80px;
+    transition: 1s;
+}
+
+
+
+
+
+ 
+
+         

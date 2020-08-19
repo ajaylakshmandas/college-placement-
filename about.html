@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="abut.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+    <link rel="stylesheet" href="newicons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="header">
+<image src="KPR logo 2020 2.png" width="350" height="100">
+</div>
+<div id="navbar">
+<h2> About us </h2>
+</div>
+ <div id="sideright">
+        <div class="icons">
+       <ul>
+         <br><br><br><br><br>
+           <a href="https://www.facebook.com/Kpriet-1564409807178999/?fref=nf"><li class="facebook"><i class="fa fa-facebook"></i></li></a>     
+           <a href="https://twitter.com/search?q=%40kpr_iet&src=typeahead_click"><li class="twitter"><i class="fa fa-twitter"></i></li></a>
+           <a href="https://www.instagram.com/kprietonline/?hl=en"><li class="instagram"><i class="fa fa-instagram"></i></li></a>
+           <a href="https://in.linkedin.com/school/kpr-institute-of-engineering-and-technology/"><li class="linkedin"><i class="fa fa-linkedin"></i></li></a>
+           <a href="https://www.youtube.com/channel/UCMCglqBwW_IghjFuLQzAEBg"><li class="youtube"><i class="fa fa-youtube"></i></li></a> 
+     </ul>
+     </div>
+    </div>
+<div id="main1">
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="kprlandingimage.jpg" width="980" height="320">
+  <img class="mySlides" src="Front.jpeg" width="980"  height="320">
+  <img class="mySlides" src="infra.jpeg" width=980"  height="320">
+  <img class="mySlides" src="PLAC.jpeg" width="980" height="320">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</div>
+
+ <div id="first">
+  <ul>
+        <li><svg class="to" width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-bar-chart-steps" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 .5 0z"/>
+            <rect width="5" height="2" x="2" y="1" rx=".5"/>
+            <rect width="8" height="2" x="4" y="5" rx=".5"/>
+            <path d="M6 9.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1z"/>
+          </svg>
+          <h3>STATIC</h3><br>
+          <a href="statist.html" class="button">click for more</button></a></li>
+        </ul>
+    
+        <ul>
+       <li> <svg class="none" width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-people-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+          </svg>
+          <h3>OUR RECRUITERS </h3><br>
+         
+          <a href="recruiters.html" class="button">click for more</button></a></li>
+       </ul>
+  
+        <ul>
+       <li> <svg class="no"width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+          </svg>
+          <h3>Contact us</h3><br>
+          
+          <a href="contact.html" class="button">click for more</button></a></li>
+       </ul>
+ 
+           <ul>
+        <li><svg class="sub" width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-chat" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+          </svg>
+          <h3>Testimonials</h3><br>
+          <a href="Testimonial.html" class="button">click for more</button></a></li>
+          </ul>
+  
+         
+          <ul>
+        <li><svg class="mul" width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-person-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7.5-3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+            <path fill-rule="evenodd" d="M13 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0v-2z"/>
+          </svg>
+          <h3>Team Placement</h3><br>
+    
+          <a href="placed.html" class="button">click for more</button></a></li>
+          </ul>
+          <ul>
+       <li> <svg class="div" width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-book-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.261 13.666c.345.14.739-.105.739-.477V2.5a.472.472 0 0 0-.277-.437c-1.126-.503-5.42-2.19-7.723.129C5.696-.125 1.403 1.56.277 2.063A.472.472 0 0 0 0 2.502V13.19c0 .372.394.618.739.477C2.738 12.852 6.125 12.113 8 14c1.875-1.887 5.262-1.148 7.261-.334z"/>
+          </svg>
+          <h3>Training</h3><br>
+          <a href="train.html" class="button">click for more</button></a></li>
+        </ul>
+        </div>
+        </div> <br><br><br><br><br>
+<div class="whole">
+<div class="sideleft">
+<h1> Get Our </h1>
+<h1> Benefits </h1>
+<ul>
+<li> Super Dream and Dream Offers</li><br>
+<li>Placement in Top IT Product 
+& Services Companies</li><br>
+<li>Placement in Top Core 
+Engineering  Companies</li><br>
+<li>Placements in top IT services 
+companies</li><br>
+<li>Internships</li><br>
+<li>Training from Industry Giants</li><br>
+</div>
+<div class="main">
+<p>At KPRIET, we strongly believe in complementing the academic endeavors by providing highly comprehensive 
+placements to our students. Placements have always been excellent, as we are one among the top preferred 
+destinations to recruit from, for a large number of companies. We offer pre-placement training to our 
+students in the area of both technical and soft skills, to make them ‘Plug & Play’ in the industry.
+Talents go barely unrecognized in KPR institute of Engineering and technology, as we leave no 
+stone unturned and we have got full potential to place 100% of the eligible students.</p>
+<p>To meet out these requirements, a fully fledged training cell is operating in our college to enhance the 
+capabilities of engineering graduates on par with the industry standards.</p>
+<h1> 2021 Placement Highligths </h1>
+<ul type="rectangle">
+<li>Alpha Pi – 16 LPA – 1 Student</li><br>
+<li>HPE – 10 LPA – 5 Students</li><br>
+<li>Kaar Technologies – 6.5 LPA – 4 Students</li><br>
+<li>Mahathi Infotech – 3.5 LPA – 6 Students</li>
+</ul>
+</div>
+</div>
+<table class="tb" width="100%">
+	<thead>
+		<tr>
+                        <th>S.No </th>
+			<th>Batch</th>
+			<th>2020 Batch</th>
+			<th>2019 Batch</th>
+			<th>2018 Batch</th>
+			<th>2017 Batch</th>
+			<th>2016 Batch</th>
+		</tr>
+	</thead>
+      <tbody>
+		<tr class="civil">
+                        <td>1</td>
+			<td>Total Job offers</td>
+			<td>625</td>
+			<td>540</td>
+			<td>516</td>
+			<td>470</td>
+	                <td>454</td>
+			
+		</tr>
+              <tr class="cse">
+                        <td>2</td>
+			<td>Placed Percentage</td>
+			<td>100%</td>
+			<td>89.33%</td>
+			<td>88.7%</td>
+			<td>84.00%</td>
+			<td>82.00%</td>
+	
+		
+		</tr>
+               <tr class="ece">
+                        <td>3</td>
+			<td>No of Companies Visited</td>
+			<td>154</td>
+			<td>104</td>
+			<td>93</td>
+			<td>81</td>
+			<td>73</td>
+			
+			
+		</tr>
+                <tr class="mech">
+			<td>4</td>
+			<td>Average CTC</td>
+			<td>4 LPA</td>
+			<td>3.8 LPA</td>
+			<td>3.5 LPA</td>
+			<td>3.25 LPA</td>
+			<td>3 LPA</td>
+		</tr>
+          </tbody>
+          </table>
+ 
+ <h1 class="none"> Feedback From Our Top Recruiters </h1><br>
+<div class="container">
+  <div class="row">
+   <div class="col-sm-4">
+<img id="second"src="download4.jpeg"  alt="Avatar" style="width:180px">
+<p>The education system of the Institution is highly innovative and has 
+incorporated the best practices followed in professional & Technical 
+Education. They are consciously working towards a regime wherein
+ Industry’s aspirations for recruiters.</p>
+<p><b>Neeraj Sharma, Vice President HR, Fourkites</b></p>
+</div>
+    <div class="col-sm-4">
+  <img id="one"src="OIP5.jpeg" alt="Avatar" style="width:180px">
+ <p> The management focuses on Value system and excellent learning 
+environment which are definitely worth a mention. The institution 
+is equipped and capable in their approach for making beeline 
+for the campus recruitment in the institute.</p>
+<p><b>Jayashree .S, Director, Paypal</b> </p>
+</div>
+<div class="col-sm-4">
+ <img id="third"src="download6.jpeg"  alt="Avatar" style="width:180px">
+<p>Comprehensive personality development programs, which are 
+in consonance with the industry expectation is the strength
+ of the Institute. Its Innovative blended approach that 
+includes development of programmes with inputs from 
+industry and academia. </p>
+<p><b>Rajendran D, Founder & Director, Zoho</b></p>
+</div>
+</div>
+</div>
+</body>
+</html>

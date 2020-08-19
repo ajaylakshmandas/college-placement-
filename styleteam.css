@@ -1,0 +1,87 @@
+.ab{
+        color:white;
+	margin-left:5px;
+        margin-right:5px;
+        margin-top:10px;
+	height:38px;
+	text-align:center;
+	line-height:50px;
+	border-radius:10px;
+	background-color:rgb(86,205,196);
+	animation-name:example;
+	animation-duration:7s;
+        padding-bottom:5px;
+        
+	}
+   @keyframes example {
+         0% { background-color:rgb(225,47,96);}
+         25%{ background-color:rgb(223,74,223);}
+         50%{background-color:rgb(86,205,196);}
+         100%{background-color:rgb(251,46,40);}
+              }
+.text{
+  font-size:20px;
+  padding:40px;
+  margin:40px;
+  border:3px solid black;
+  border-radius:20px;
+  line-height:1.3;
+   }
+.box{
+    border:3px;
+    border-style:solid;
+    border-color:black;
+    width:1000px;
+    margin-left:30px;
+
+   }
+
+.ab:hover{
+    background-color:#FF1493;
+    color:black;
+
+   }
+#pic{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border:2px solid black;
+   }
+#con{
+    display:block;
+    margin-left:460px;
+
+   }
+#work{
+    display:block;
+    margin-left:420px;
+
+
+   }
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    height: 370px; 
+    border: 1px solid black;
+}
+
+#slide {
+    position: absolute;
+    left: -600px;
+    width: 1000px;
+    height: 370px;
+    background: none;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}

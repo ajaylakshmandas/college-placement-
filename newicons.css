@@ -1,0 +1,39 @@
+.icons{
+      top:50%;
+      right:0;
+      transform:translateY(-50%);
+      position:absolute;
+      z-index:100;
+     }
+.icons ul{
+     padding:initial;
+     }
+.icons ul li{
+   height:40px;
+   width:40px;
+   list-style-type:none;
+   padding-left:12px;
+   padding-top:6px;
+   margin-top:5px;
+   color:white;
+}
+.facebook{
+    background:#007bb5;
+}
+.twitter{
+    background: #55acee;
+}
+.youtube{
+   background: #ff0000;
+}
+.linkedin{
+   background: #007bb5;
+}
+.instagram{
+    background: #e95950;
+}
+.icons ul li:hover{
+    padding-left: 30px;
+    width:80px;
+    transition: 1s;
+}

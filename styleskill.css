@@ -1,0 +1,49 @@
+.ab{
+       color:white;
+	margin-left:5px;
+        margin-right:5px;
+        margin-top:10px;
+	height:38px;
+	text-align:center;
+	line-height:50px;
+	border-radius:10px;
+	background-color:rgb(86,205,196);
+	animation-name:example;
+	animation-duration:7s;
+        padding-bottom:5px;
+        
+	}
+   @keyframes example {
+         0% { background-color:rgb(225,47,96);}
+         25%{ background-color:rgb(223,74,223);}
+         50%{background-color:rgb(86,205,196);}
+         100%{background-color:rgb(251,46,40);}
+              }
+.text{
+  font-size:20px;
+  margin:40px;
+  line-height:1.4;
+  border:3px solid black;
+  border-radius:20px;
+  padding:40px;
+   }
+.box{
+    border:3px;
+    border-style:solid;
+    border-color:black;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+   }
+#pic{
+     width:350px;
+     height:200px;
+     padding-right:5px;
+   }
+.ab:hover{
+      background-color:#FF1493;
+      color:black;
+
+
+
+     }
